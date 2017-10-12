@@ -7,7 +7,7 @@ def main():
   
   #encode with types from two different modules specified in the same file Spec.asn
   enc_1 = spec.encode('ASequence',{'priority:'high', 'src':1,'dst':2,'num':0,'length':256})
-  enc_2 = spec.encode('SeqMod2',{'isvalide':True, 'name':'toto', 'ID':5)
+  enc_2 = spec.encode('SeqMod2',{'isvalide':True, 'name':'toto', 'identity':5)
 
   print(enc_1,'hex')
   print(enc_2,'hex')
