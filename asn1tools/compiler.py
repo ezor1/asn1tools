@@ -164,7 +164,7 @@ def compile_file(filename, codec='ber', any_defined_by_choices=None):
     >>> foo = asn1tools.compile_file(['file1','file2,...])
 
     """
-     
+    
     try: 
         with open(filename, 'r') as fin:
             return compile_string(fin.read(),codec,any_defined_by_choices)
