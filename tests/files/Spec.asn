@@ -34,7 +34,7 @@ Id ::= Identifier
 SeqMod2 ::=
  SEQUENCE {
  isvalide BOOLEAN,
- name BIT STRING,
+ name IA5String,
  identity Id
  }
  
